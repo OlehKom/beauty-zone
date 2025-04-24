@@ -1,0 +1,101 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v47-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-v47-cyrillic_latin-600.woff2') format('woff2');
+}
+
+:root {
+    --color-primary: #FFFFFF;
+    --color-primary-light: #2B7FFF;
+    --color-primary-dark: #011C44;
+}
+
+/* Base */
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1;
+}
+
+/* main-section */
+
+.hero-title {
+    color: var(--color-primary-light);
+    font-family: Play, sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 0.8;
+}
+
+.button {
+    color: var(--color-primary);
+    font-weight: 600;
+    background-color: var(--color-primary-light);
+    border: 2px solid var(--color-primary-light);
+    border-radius: 32px;
+    cursor: pointer;
+}
+
+.button-text {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+/* description-section */
+.section-title {
+    color: var(--color-primary-dark);
+    font-family: Play, sans-serif;
+    font-size: 64px;
+    line-height: 1;
+}
+
+.section-title .accent {
+    color: var(--color-primary-light);
+}
+
+
+/* advantages-section */
+
+
+
+/* procedures-section */
+
+.procedures-title {
+    color: var(--color-primary);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+/* contacts-section */
+
+
+
+/* footer */
